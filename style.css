@@ -7,3 +7,27 @@
 nav {
   border-bottom: 1px solid black;
 }
+
+/* .carousel .carousel-item {
+  height: 100%;
+}
+*/
+.carousel-item img {
+    object-fit:cover;
+    min-height: 250px;
+    width: 100%;
+} 
+
+html,
+body {
+  height: 100%;
+}
+
+#pic-slide {
+  height: 90%;
+}
+
+#main-button {
+  background-color: #00496a;
+  color: #ffffff; 
+}
