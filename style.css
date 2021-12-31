@@ -31,3 +31,69 @@ body {
   background-color: #00496a;
   color: #ffffff; 
 }
+
+.project .lang{
+  background-color: #4a4c4c;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15%;
+  padding: 1%;
+} 
+
+.project .project-button,
+form .project-button {
+  color: #ffffff;
+  background-color: #00496a;
+}
+
+.project .card-img-top {
+  object-fit: cover;
+  width: 100%;
+}
+
+.about {
+  margin: 10% 0;
+}
+
+.about .languages,
+.about .languages ul li {
+  background-color: #00496a;
+  color: #ffffff;
+}
+
+.about .frameworks,
+.about .frameworks ul li {
+  background-color: #4a4c4c;
+  color: #ffffff;
+}
+
+.about .skills,
+.about .skills ul li {
+  background-color: #013554;
+  color: #ffffff;
+}
+
+.about-blocks {
+  position: relative;
+}
+
+#lan-img,
+#frame-img,
+#skill-img {
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  right: 0;
+}
+
+.contact {
+  border: 2px solid black;
+  padding: 6em 0;
+  text-align: center;
+}
+
+.contact button {
+  padding-left: 2em;
+  padding-right: 2em;
+}
