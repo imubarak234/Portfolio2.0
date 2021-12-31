@@ -8,13 +8,14 @@
 
 nav {
   border-bottom: 1px solid #4a4c4c;
+  z-index: 5;
 }
 
-.carousel-item img {
+/* .carousel-item img {
   object-fit: cover;
   min-height: 250px;
   width: 100%;
-}
+} */
 
 html,
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 #pic-slide {
-  height: 90%;
+  height: 75%;
 }
 
 #main-button,
@@ -121,4 +122,21 @@ footer .iconing .foot-icon {
   bottom: 0;
   right: 0;
   width: 10%;
+}
+
+#pic-slide .main-name{
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #pic-slide .main-name{
+    width: 100%;
+    padding: 5% 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #pic-slide .main-name{
+    width: 100%;
+  }
 }
