@@ -1,3 +1,5 @@
+/* stylelint-disable csstree/validator */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,18 +7,14 @@
 }
 
 nav {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #4a4c4c;
 }
 
-/* .carousel .carousel-item {
-  height: 100%;
-}
-*/
 .carousel-item img {
-    object-fit:cover;
-    min-height: 250px;
-    width: 100%;
-} 
+  object-fit: cover;
+  min-height: 250px;
+  width: 100%;
+}
 
 html,
 body {
@@ -27,23 +25,24 @@ body {
   height: 90%;
 }
 
-#main-button {
+#main-button,
+#main-buttons {
   background-color: #00496a;
-  color: #ffffff; 
+  color: #fff;
 }
 
-.project .lang{
+.project .lang {
   background-color: #4a4c4c;
-  color: #ffffff;
+  color: #fff;
   width: fit-content;
   height: fit-content;
   border-radius: 15%;
   padding: 1%;
-} 
+}
 
-.project .project-button,
-form .project-button {
-  color: #ffffff;
+form .project-button,
+.project .project-button {
+  color: #fff;
   background-color: #00496a;
 }
 
@@ -59,19 +58,19 @@ form .project-button {
 .about .languages,
 .about .languages ul li {
   background-color: #00496a;
-  color: #ffffff;
+  color: #fff;
 }
 
 .about .frameworks,
 .about .frameworks ul li {
   background-color: #4a4c4c;
-  color: #ffffff;
+  color: #fff;
 }
 
 .about .skills,
 .about .skills ul li {
   background-color: #013554;
-  color: #ffffff;
+  color: #fff;
 }
 
 .about-blocks {
@@ -88,12 +87,38 @@ form .project-button {
 }
 
 .contact {
-  border: 2px solid black;
   padding: 6em 0;
   text-align: center;
+  position: relative;
 }
 
 .contact button {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+footer {
+  background-color: #013554;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .iconing .foot-icon {
+  color: #fff;
+}
+
+#first-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+}
+
+#second-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10%;
 }
