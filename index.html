@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-lignt lead">
     <div class="container">
-      <a href="#" class="navbar-brand fw-normal">Developer</a>
+      <a href="#" class="navbar-brand fw-normal">Full Stack Developer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,6 +35,7 @@
     </div>
   </nav>
 
+  <!--Landing section-->
 <div class="container-fluid d-md-flex my-4" id="pic-slide">
   <div class="main-name d-flex flex-column justify-content-center align-items-center">
     <div class="name">
@@ -42,7 +43,7 @@
       <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Placeat magni autem quidem repellat eligendi quibusdam, ratione praesentium atque exercitationem pariatur.
       </p>
-      <button type="button" class="btn btn-lg" id="main-button">Start Collaboration</button>
+      <button type="button" class="btn btn-lg" id="main-button" data-bs-toggle="modal" data-bs-target="#signup">Start Collaboration</button>
     </div>
     
   </div>
@@ -253,7 +254,7 @@
     </div> 
 </section>
 <section class="container-fluid contact d-flex flex-column justify-content-center align-items-center mt-5">
-  <div class="w-50">
+  <div class=" contact-container">
     <h2 class="h1">Let's Chat!</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
       molestias dignissimos? Vitae nostrum ipsam assumenda in aut inventore
@@ -261,7 +262,7 @@
     </p>
     <form action="#" class="">
       <div class="row g-3">
-        <div class="mb-3 mt-3 col-md-6">
+        <div class="mb-2 mt-3 col-md-6">
           <label for="name" class="form-label">Name:</label>
           <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
         </div>
@@ -292,6 +293,38 @@
     </div>
   </div>
 </footer>
+<!-- Modal -->
+<div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupLabel">Start Collaboration</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Details please</p>
+        <form action="#">
+          <div class="md-3">
+            <label for="full-name" class="col-form-label">
+              Full Name:
+            </label>
+            <input type="text" class="form-control" id="full-name">
+          </div>
+          <div class="md-3">
+            <label for="email-address" class="col-form-label">
+              Email:
+            </label>
+            <input type="email" class="form-control" id="email-address">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">submit</button>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
