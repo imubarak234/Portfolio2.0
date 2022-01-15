@@ -139,7 +139,16 @@ footer .iconing .foot-icon {
   width: 50%;
 }
 
+.contact .contact-container {
+  width: 50%;
+}
+
 @media screen and (max-width: 768px) {
+
+  #pic-slide {
+    height: auto;
+  }
+
   #pic-slide .main-name{
     width: 100%;
     padding: 5% 0;
@@ -174,10 +183,29 @@ footer .iconing .foot-icon {
   .about .main-name {
     width: 80%;
   } 
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .blocks {
+    display: none;
+  }
+
+  .contact .contact-container {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 490px) {
   #pic-slide .main-name{
     width: 100%;
+  }
+
+  #pic-slide h1 {
+    text-align: center;
   }
 }
