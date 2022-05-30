@@ -143,6 +143,15 @@ footer .iconing .foot-icon {
   width: 50%;
 }
 
+.project span {
+  width: 5em;
+  border: 2px solid black;
+}
+
+.project-cards .card img{
+  height: 35vh;
+}
+
 @media screen and (max-width: 768px) {
   #pic-slide {
     height: auto;
