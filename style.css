@@ -173,9 +173,25 @@ footer .iconing .foot-icon {
   transform: translateY(-50%);
 }
 
+#carouselExampleControls102 {
+  display: none;
+}
+
+#carouselExampleControls101 {
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   #pic-slide {
     height: auto;
+  }
+
+  #carouselExampleControls102 {
+    display: block;
+  }
+
+  #carouselExampleControls101 {
+    display:none;
   }
 
   .about .about-sections,
