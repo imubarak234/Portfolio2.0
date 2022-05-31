@@ -43,7 +43,8 @@ body {
 }
 
 form .project-button,
-.project .project-button {
+.project .project-button,
+.wordpress-slide .project-button {
   color: #fff;
   background-color: #00496a;
   margin-top: 3%;
