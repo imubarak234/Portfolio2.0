@@ -129,4 +129,4 @@ const mainSlider = `<div class="carousel-inner">
 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls101" data-bs-slide="next">
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
-</button>`
+</button>`;
