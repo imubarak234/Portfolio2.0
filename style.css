@@ -105,7 +105,7 @@ footer {
   background-color: #013554;
 }
 
-footer p {
+footer a {
   color: #fff;
 }
 
@@ -144,7 +144,9 @@ footer .iconing .foot-icon {
   width: 50%;
 }
 
-.project span {
+.project span,
+#carouselExampleControls101 span,
+#carouselExampleControls102 span {
   width: 5em;
   border: 2px solid black;
 }
