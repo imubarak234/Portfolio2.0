@@ -157,14 +157,14 @@ footer .iconing .foot-icon {
   padding: 1em;
 }
 
-.wordpress .card {
+.wordpress-slide .card {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
 }
 
-.wordpress .carousel-control-prev,
-.wordpress .carousel-control-next {
+.wordpress-slide .carousel-control-prev,
+.wordpress-slide .carousel-control-next {
   background-color: #e1e1e1;
   width: 6vh;
   height: 6vh;
