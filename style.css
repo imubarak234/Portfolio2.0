@@ -144,11 +144,9 @@ footer .iconing .foot-icon {
   width: 50%;
 }
 
-.project span,
-#carouselExampleControls101 span,
-#carouselExampleControls102 span {
+.project span {
   width: 5em;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .project-cards .card img {
