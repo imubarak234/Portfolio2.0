@@ -144,7 +144,7 @@ footer .iconing .foot-icon {
   width: 50%;
 }
 
-.project span {
+.project .dash {
   width: 5em;
   border-bottom: 2px solid black;
 }
