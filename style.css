@@ -181,6 +181,28 @@ footer .iconing .foot-icon {
   display: block;
 }
 
+#carouselIndicators .carousel-inner #pic-slide1,
+#carouselIndicators .carousel-inner #pic-slide2,
+#carouselIndicators .carousel-inner #pic-slide3{
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#carouselIndicators .carousel-inner #pic-slide1{
+  background-image: url(./images/undraw_dev_productivity_umsq_ccexpress.png);
+}
+
+#carouselIndicators .carousel-inner #pic-slide2{
+  background-image: url(./images/undraw_Programming_re_kg9v_ccexpress.png);
+}
+
+#carouselIndicators .carousel-inner #pic-slide3 {
+  background-image: url(./images/undraw_progressive_app_m9ms_ccexpress.png);
+}
+
 @media screen and (max-width: 768px) {
   #pic-slide {
     height: auto;
